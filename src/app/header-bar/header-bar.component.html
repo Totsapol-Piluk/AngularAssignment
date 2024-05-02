@@ -1,0 +1,17 @@
+<div class="h-[6rem] flex justify-between">
+  <section class="flex flex-col justify-center gap-1">
+    <p class="text-lg font-semibold">Hello, {{ firstName }}</p>
+    <p class="text-[0.75rem]">Have a nice day</p>
+  </section>
+  <section class="flex flex-row items-center gap-4">
+    <div class="border-r-[1px] border-gray-500 pr-4">
+        <span class="material-symbols-outlined"> notifications </span>
+    </div>
+    <div class="flex flex-row items-center gap-x-3">
+        <div class="rounded-full w-[2.5rem] h-[2.5rem] bg-gray-400"></div>
+        <div>
+            <p class="font-medium">{{ firstName }} {{lastName}}</p>
+            <p class="text-xs font-light">{{ role }}</p></div>
+    </div>
+  </section>
+</div>

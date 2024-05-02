@@ -1,0 +1,117 @@
+<form
+  action=""
+  class="w-[1144px] h-[678px]  bg-white flex flex-col gap-6 p-5"
+>
+  <section class="flex justify-between">
+    <p class="font-semibold text-lg">Add User</p>
+    <span class="material-symbols-outlined"> close </span>
+  </section>
+
+  <section class="flex flex-col gap-5">
+    <div>
+      <input
+        type="text"
+        placeholder="User Id"
+        class="w-[1104px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+        required
+      />
+    </div>
+    <div class="flex justify-between">
+      <input
+        type="text"
+        placeholder="FirstName"
+        class="w-[544px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+        required
+      />
+      <input
+        type="text"
+        placeholder="LastName"
+        class="w-[544px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+        required
+      />
+    </div>
+
+    <div class="flex justify-between">
+      <input
+        type="text"
+        placeholder="Email Id"
+        class="w-[358px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+        required
+      />
+      <input
+        type="text"
+        placeholder="Mobile No"
+        class="w-[358px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+      />
+        <div class="border-[1px] border-gray-400 rounded-md text-gray-400">
+          <select class="select  select-sm focus:outline-none focus:border-none  w-[358px] h-[34px] border-[1px]">
+            <option disabled selected>Select Role Tpye</option>
+            <option>role1</option>
+            <option>role2</option>
+            <option>role3</option>
+            <option>role4</option>
+          </select>
+        </div>
+    </div>
+
+    <div class="flex justify-between">
+      <input
+        type="text"
+        placeholder="Username"
+        class="w-[358px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+        required
+      />
+      <input
+        type="text"
+        placeholder="Passworld"
+        class="w-[358px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+        required
+      />
+      <input
+        type="text"
+        placeholder="Confirm Passworld"
+        class="w-[358px] h-[34px] border-[1px] border-gray-400 rounded-md px-4"
+        required
+      />
+    </div>
+  </section>
+
+  <section class="flex flex-col gap-3">
+    <article class="flex justify-between h-[51px] bg-blue-100 items-center p-5 font-medium text-gray-500 border-b-[1px]">
+      <div class="w-[250px]">Module Permission</div>
+      <div class="">Read</div>
+      <div class="">Write</div>
+      <div class="">Deleted</div>
+    </article>
+    <article class="flex justify-between h-[51px] bg-white items-center p-5 font-medium text-gray-500 border-b-[1px]">
+      <div class="w-[225px]">Super Admin</div>
+      <input type="checkbox" checked="checked" class="checkbox" />
+      <input type="checkbox" checked="checked" class="checkbox"/>
+      <input type="checkbox" checked="checked" class="checkbox"/>
+    </article>
+    <article class="flex justify-between h-[51px] bg-white items-center p-5 font-medium text-gray-500 border-b-[1px]">
+      <div class="w-[225px]">Admin</div>
+      <input type="checkbox" checked="checked" class="checkbox" />
+      <input type="checkbox" checked="checked" class="checkbox" />
+      <input type="checkbox" checked="checked" class="checkbox" />
+    </article>
+    <article class="flex justify-between h-[51px] bg-white items-center p-5 font-medium text-gray-500 border-b-[1px]">
+      <div class="w-[225px]">Employee</div>
+      <input type="checkbox" checked="checked" class="checkbox" />
+      <input type="checkbox" checked="checked" class="checkbox" />
+      <input type="checkbox" checked="checked" class="checkbox" />
+    </article>
+    <article class="flex justify-between h-[51px] bg-white items-center p-5 font-medium text-gray-500 border-b-[1px]">
+      <div class="w-[225px]">Module Permission</div>
+      <input type="checkbox" checked="checked" class="checkbox" />
+      <input type="checkbox" checked="checked" class="checkbox" />
+      <input type="checkbox" checked="checked" class="checkbox" />
+    </article>
+
+  </section>
+
+  <div class="flex justify-end gap-6">
+    <button class="w-[90px] h-[30px] bg-blue-400 px-2 text-white rounded-md">Add User</button>
+    <button class="w-[90px] h-[30px] bg-white px-2 text-gray-400">Cancle</button>
+  </div>
+</form>

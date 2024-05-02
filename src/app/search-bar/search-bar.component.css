@@ -1,0 +1,9 @@
+button{
+    background-image: linear-gradient(to top, #4a85f6, #4582f7, #417ff7, #3c7cf8, #3779f8);
+}
+button:hover{
+    background-image: linear-gradient(to top, #4aa6f6, #48a2f6, #479df6, #4899f6, #4a94f6);
+}
+input:focus{
+    border: none;
+}
